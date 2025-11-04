@@ -1,5 +1,5 @@
 {% set name = "langchain-tavily" %}
-{% set version = "0.2.12" %}
+{% set version = "0.2.13" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/langchain_tavily-{{ version }}.tar.gz
-  sha256: e73ef2149b7a4e751fce75c47003d04628222b12d073dae4af2dc7f58d589e30
+  sha256: 97752167225b1459ffd2055bc8ffcec30658ff808dd5f7f9b2efa85ebbc7895a
 
 build:
   noarch: python
